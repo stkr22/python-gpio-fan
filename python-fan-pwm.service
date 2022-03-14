@@ -3,7 +3,7 @@ Description=Regulates
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /opt/pwm.py
+ExecStart=/usr/bin/python3 -u /opt/pwm.py
 
 [Install]
 WantedBy=multi-user.target
